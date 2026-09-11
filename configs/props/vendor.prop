@@ -240,6 +240,7 @@ debug.sf.use_phase_offsets_as_durations=0
 debug.sf.cpupolicy.legacy=1
 debug.sf.enable_adpf_cpu_hint=true
 debug.sf.enable_gl_backpressure=true
+debug.sf.disable_backpressure=0
 debug.sf.auto_latch_unsignaled=0
 debug.sf.frame_rate_multiple_threshold=60
 debug.sf.late.sf.duration=27600000

@@ -405,6 +405,12 @@
       "Value": "70"
     },
     {
+      "PowerHint": "LAUNCH",
+      "Node": "perfservFGClampMin",
+      "Duration": 3000,
+      "Value": "50"
+    },
+    {
       "PowerHint": "CAMERA_LAUNCH",
       "Node": "perfservFGClampMin",
       "Duration": 1000,
