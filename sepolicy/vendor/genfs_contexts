@@ -33,6 +33,9 @@ genfscon sysfs /devices/platform/13000000.mali/dvfs_period                      
 genfscon sysfs /devices/platform/13000000.mali/js_ctx_scheduling_mode                              u:object_r:vendor_sysfs_mali:s0
 genfscon sysfs /devices/platform/13000000.mali/js_scheduling_period                                u:object_r:vendor_sysfs_mali:s0
 
+# GPU frequency (MTK base labels /proc/gpufreqv2, real path is /proc/gpufreq)
+genfscon proc /gpufreq                                                                              u:object_r:proc_gpufreqv2:s0
+
 # Wakeup
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt635x-auxadc/wakeup    u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-rtc/wakeup       u:object_r:sysfs_wakeup:s0
