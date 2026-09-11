@@ -34,3 +34,9 @@ allow hal_power_default sysfs_fpsgo:file { write open };
 # /sys/module/mtk_fpsgo/parameters/bhr_opp
 allow hal_power_default sysfs_mtk_fpsgo:dir search;
 allow hal_power_default sysfs_mtk_fpsgo:file { write open };
+
+# Allow libperfmgr to get/set powerhal state property
+set_prop(hal_power_default, vendor_power_prop)
+
+# Allow libperfmgr to access panel sysfs
+allow hal_power_default vendor_sysfs_panel:file r_file_perms;

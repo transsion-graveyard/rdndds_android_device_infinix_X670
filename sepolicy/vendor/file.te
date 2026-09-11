@@ -28,10 +28,6 @@ type sysfs_OTG_CTL_file, fs_type, sysfs_type;
 # Torch
 type sysfs_sub_torch_file, fs_type, sysfs_type;
 type sysfs_torch_file, fs_type, sysfs_type;
-type sysfs_wide_torch_file, fs_type, sysfs_type;
-
-# VMAX
-type aw87xxx_vmax, fs_type, sysfs_type;
 
 # TNE
 type tneengine_tnek_file, dev_type, mlstrustedobject;
